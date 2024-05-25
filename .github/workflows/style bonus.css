@@ -1,0 +1,91 @@
+*,
+html{
+    margin : 0;
+    padding: 0;
+
+}
+
+.container.body{
+    background-color: rgb(189, 213, 223);
+}
+
+.container-navbar {
+    background-color:rgb(0, 111, 139);
+    width: 100%;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.li-navbar {
+    list-style-type:none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-weight: 500;
+    font-size: 40;
+    font-style:normal;
+    font-optical-sizing: auto;
+
+}
+
+.li-navbar:hover{
+    background-color: rgb(189, 213, 223);
+    transition: .5s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 8px;
+    
+}
+
+.a-navbar{
+    font-weight: 500;
+    color:white;
+    text-decoration: none;
+}
+
+
+.container-content{
+    background-color: rgb(189, 213, 223);
+    height: 150vh;
+}
+
+.wrapper{
+    background-color: rgb(189, 213, 223);
+    width:100%;
+    justify-content: center;
+}
+
+
+.img-wrapper{
+    width: 30%;
+    padding: 30px 435px 20px;
+    display: block;
+    justify-content: center;
+
+}
+
+.container-footer{
+    background-color: rgb(0,111,139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1-footer{
+    color: white;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-weight: 500;
+    font-size: 30;
+    font-style:normal;
+    font-optical-sizing: auto;
+}
+
+@media only screen and(max-width: 576px){
+    
+}

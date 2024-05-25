@@ -1,0 +1,86 @@
+*, 
+html { 
+    margin: 0;
+    padding: 0;
+}
+
+.container-body {
+    background-color:rgb(189, 213, 223);
+    
+}
+
+.container-navbar {
+    background-color:rgb(0, 111, 139);
+    width: 100%;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.li-navbar {
+    list-style-type:none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-weight: 500;
+    font-size: 40;
+    font-style:normal;
+    font-optical-sizing: auto;
+
+}
+
+.li-navbar:hover{
+    background-color: rgb(189, 213, 223);
+    transition: .5s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 8px;
+    
+}
+
+.a-navbar{
+    font-weight: 500;
+    color:white;
+    text-decoration: none;
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img-content {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container-footer{
+    background-color:rgb(0, 111, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1-footer{
+    color: white;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-weight: 500;
+    font-size: 30;
+    font-style:normal;
+    font-optical-sizing: auto;
+}
